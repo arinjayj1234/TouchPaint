@@ -13,7 +13,7 @@ if (width<992) {
     document.body.style.overflow = "hidden";
 }
 
-canvas.addEventListener(touchstart, "my_touchstart");
+canvas.addEventListener("touchstart", my_touchstart);
 
 function my_touchstart(e) {
     console.log("my_touchstart")
@@ -22,7 +22,7 @@ function my_touchstart(e) {
     radius = document.getElementById("radius").value;
 }
 
-canvas.addEventListener(touchmove, "my_touchmove");
+canvas.addEventListener("touchmove", my_touchmove);
 
 function my_touchmove(e) {
     cpox = e.touches[0].clientX - canvas.offsetLeft;
