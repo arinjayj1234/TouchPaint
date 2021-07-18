@@ -27,7 +27,7 @@ canvas.addEventListener("touchmove", my_touchmove);
 function my_touchmove(e) {
     cpox = e.touches[0].clientX - canvas.offsetLeft;
     cpoy = e.touches[0].clientY - canvas.offsetTop;
-    onsole.log("Current Position of X and Y Coordinate = ");
+    console.log("Current Position of X and Y Coordinate = ");
     console.log("X = "+cpox+"Y = "+cpoy);
     ctx.beginPath();
     ctx.strokeStyle = color;
