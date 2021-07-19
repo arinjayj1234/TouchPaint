@@ -5,7 +5,7 @@ lwidth = 3;
 radius = 8;
 
 var width = screen.width;
-new_width = screen.width-70;
+new_width = screen.width-100;
 new_height = screen.height-300;
 if (width<992) {
     document.getElementById("myCanvas").width = new_width;
